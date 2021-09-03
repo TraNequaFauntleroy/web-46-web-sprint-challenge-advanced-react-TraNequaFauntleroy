@@ -42,7 +42,7 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 
 * [ ] In the `PlantList` class component, fetch data from the server you now have running - the data can be fetched from `http://localhost:3333/plants.`
 * [ ] Set the data to a state property called `this.state.plants.`
-* [ ] The render function is already built and styled. Once the data is on the state, you will see the list of plants, and you will have the functionality to add a plant to the cart.
+* [X] The render function is already built and styled. Once the data is on the state, you will see the list of plants, and you will have the functionality to add a plant to the cart.
 
 #### Shopping Cart
 
@@ -103,9 +103,13 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
 
 1. What are the main differences between a stateful and a functional component?
-
+  A: Functional components they don't manage their own state nor watch any reactive data for changes. stateful component is a component that holds some state.
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
-
+    A: componentWillMount is called in the birthing or mounting phase of the lifecycle. componentWillUpdate is called during the updating phase.
 3. Define stateful logic.
-
+  A: Stateful logic allows us to create custom hooks that can be reused.
 4. What are the three step of creating a successful test? What is done in each phase?
+  A: Arrange: Display component to be tested.
+    Act: Finding the element to be tested.
+    Assert: Verifying that the element exist on the page.
+
